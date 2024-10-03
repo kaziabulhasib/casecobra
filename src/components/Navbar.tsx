@@ -62,7 +62,7 @@ const Navbar = async () => {
                   Sign Up
                 </Link>
                 <Link
-                  href='/configure/upload'
+                  href='/api/auth/login'
                   className={buttonVariants({
                     variant: "ghost",
                     size: "sm",
